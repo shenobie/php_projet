@@ -10,7 +10,7 @@ echo'
 		<br>
 			- Grapher la densité des pays
 		<br>
-			-En cours de développement
+			- En cours de développement
 			
 		
 	</p>

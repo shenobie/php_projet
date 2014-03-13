@@ -16,7 +16,7 @@
 			<nav>
 				<ul class="cadrenav">
 					<li><a class="nav" href="sparql.php">accueil</a></li>
-					<li><a class="nav" href="#">Statistiques</a></li>
+					<li><a class="nav" href="sparql.php?section=statistique">Statistiques</a></li>
 				</ul>
 			</nav>
 			<footer>

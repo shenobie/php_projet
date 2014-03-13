@@ -7,3 +7,10 @@ if (!isset($_GET['section']))
 {
     include_once('controleur/accueil.php');
 }
+else
+{
+	if ($_GET['section'] == 'statistique')
+	{
+		include_once('controleur/statistique.php');
+	}
+}
