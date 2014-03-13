@@ -1,5 +1,0 @@
-Liste pays :
-SELECT DISTINCT ?Country
-WHERE {
-   ?Country a <http://dbpedia.org/ontology/Country> .
-}
