@@ -1,1 +1,1 @@
-<?phpinclude('modele/statistique.php');if(isset($_POST['choixnbpays'])){	$nombrepays = $_POST['nbpays'];}$listepays = getlistepays();include('vue/structuresite.php');include('vue/statistique.php');
+<?phpinclude('modele/statistique.php');if(isset($_POST['choixnbpays'])){	$nombrepays = $_POST['nbpays'];	$listepays = getlistepays();}include('vue/structuresite.php');include('vue/statistique.php');
