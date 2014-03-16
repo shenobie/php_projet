@@ -13,4 +13,8 @@ else
 	{
 		include_once('controleur/statistique.php');
 	}
+	else
+	{
+		include_once('controleur/accueil.php');
+	}
 }

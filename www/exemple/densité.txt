@@ -1,0 +1,12 @@
+densité de chaque pays:
+italie:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+dbpedia-owl:populationDensity ?pop;
+foaf:name "Italy"@en
+} 

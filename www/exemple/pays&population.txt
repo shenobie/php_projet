@@ -1,0 +1,457 @@
+Requete pays + population :
+Allemagne :
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Germany"@enNorway
+} 
+
+Danemark:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Denmark"@en.
+FILTER (?pop =5580413).
+} 
+
+Lithuanie:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Lithuania"@en
+} 
+
+Luxembourg:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Luxembourg"@en
+} 
+
+San marino:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name"San Marino"@en
+} 
+
+Switzerland:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Switzerland"@en
+}
+
+Belgique:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Belgium"@en
+} 
+
+Cyprus:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Cyprus"@en
+} 
+
+Estonia:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Estonia"@en
+}
+ 
+Finland:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Finland"@en
+} 
+
+andorra:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Andorra"@en
+} 
+
+Hungary:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Hungary"@en
+}
+ 
+Czech Republic:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Czech Republic"@en
+} 
+
+Georgia:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Georgia (country)"@en
+}
+ 
+Latvia:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Latvia"@en
+}
+
+Liechtenstein: 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Liechtenstein"@en
+} 
+
+Iceland:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Iceland"@en
+} 
+
+Moldova:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Moldova"@en
+} 
+
+Monaco:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Monaco"@en
+} 
+
+netherland:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "the Netherlands"@en
+} 
+
+Poland:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Poland"@en
+} 
+
+portugal:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Portugal"@en
+} 
+
+Russia:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Russia"@en
+} 
+
+serbia:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Serbia"@en
+} 
+
+Slovakia:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Slovakia"@en
+} 
+
+Slovenia:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Slovenia"@en
+} 
+
+Spain:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Spain"@en
+} 
+
+Vatican:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Vatican City"@en
+} 
+
+Austria:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Austria"@en
+} 
+
+Azerbaijan
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Azerbaijan"@en
+} 
+
+Italy:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Italy"@en
+} 
+
+republic of macedonia:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "the Republic of Macedonia"@en
+} 
+
+Ukraine:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Ukraine"@en
+} 
+
+Kosovo:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX prop: <http://dbpedia.org/property/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?place,?pop WHERE { 
+?place rdf:type yago:EuropeanCountries;
+prop:populationEstimate ?pop;
+foaf:name "Kosovo and Metohija"@en
+} 
+
+Angleterre:
+PREFIX dbpprop: <http://dbpedia.org/property/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX yago:<http://dbpedia.org/class/yago/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX category: <http://dbpedia.org/resource/Category:>
+PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>
+
+SELECT DISTINCT ?name ?population 
+WHERE {
+    ?country a dbo:Country .
+    ?country rdfs:label ?enName .   
+
+    OPTIONAL {?country dbpprop:populationEstimate ?populationEstimate}
+    OPTIONAL {?country dbpprop:populationCensus ?populationCensus}
+    OPTIONAL {?country dbpprop:yearEnd ?yearEnd}
+
+
+    BIND(IF(bound(?populationEstimate), ?populationEstimate, ?populationCensus) as ?population)
+
+
+    FILTER (langMatches(lang(?enName), "en")) 
+    FILTER (!bound(?yearEnd))
+    FILTER (xsd:integer(?population))
+    FILTER (?population=63181775)
+
+    { ?country dbpprop:iso3166code ?code . }
+    UNION
+    { ?country dbpprop:iso31661Alpha ?code . }
+    UNION
+    { ?country dbpprop:countryCode ?code . }
+    UNION
+    { ?country a yago:MemberStatesOfTheUnitedNations . }
+
+    BIND (str(?enName) AS ?name)
+}
+
+
+
+
+
+
+
+
+
+
+
