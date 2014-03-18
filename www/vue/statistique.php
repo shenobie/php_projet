@@ -27,6 +27,7 @@ echo"<div class='vue'>";
 				<select name="typegraph">
 					<option value="population">Population (Chiffre)</option>
 					<option value="popdensite">Densité de Population (hab/km²)</option>
+					<option value="superficie">Superficie du pays (km²)</option>
 				</select></br></br>';
 		
 		echo'<input type="hidden"  name="nombrepays"  value="'.$nombrepays.'">';

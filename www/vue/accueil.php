@@ -10,7 +10,7 @@ echo'
 		<br>
 			- Grapher la densité des pays
 		<br>
-			- En cours de développement
+			- Grapher la superficie du pays
 			
 		<br><br><i>Pour utiliser le site sous WAMP/LAMP, veuillez installer l\'extension php_gd2</i>
 			
